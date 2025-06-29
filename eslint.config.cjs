@@ -28,6 +28,7 @@ module.exports = [
       '@typescript-eslint/explicit-function-return-type': 'off',
       '@typescript-eslint/no-inferrable-types': 'off',
       'prettier/prettier': 'error',
+      'no-unused-vars': 'off'
     }
   },
 ];
