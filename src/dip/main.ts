@@ -1,11 +1,11 @@
 /*
-Liskov substitution principle (Princípio da substituição de Liskov) -
-Se φ(x) é uma propriedade demostrável dos objetos x de tipo T. Então φ(y)
-deve ser verdadeiro para objetos y de tipo S onde S é um subtipo de T.
+Módulos de alto nível não devem depender de módulos de baixo nível. Ambos devem depender de abstrações.
+Dependa de abstrações, não de implementações
+Abstrações não devem depender de detalhes. Detalhes devem depender
+de abstrações.
 
-Mais simples: Subtipos precisam ser substituíveis por seus tipos de base.
-Mais simples ainda: Se meu programa espera um Animal, algo do tipo
-Cachorro (que herda de Animal) deve servir como qualquer outro Animal.
+Classes de baixo nível são classes que executam tarefas (os detalhes)
+Classes de alto nível são classes que gerenciam as classes de baixo nível.
 */
 
 import { Messaging } from './services/messaging';
